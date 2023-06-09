@@ -2,3 +2,6 @@
     display: grid;
     margin: 10px;
 }
+body {
+    background-color: aqua;
+}

@@ -1,3 +1,8 @@
-const h2 = document.createElement("h2");
-h2.textContent = "Brenda Chebet Bii";
-document.querySelector("body").appendChild(h2);
+const marquee = document.createElement("marquee");
+marquee.textContent = "Thank you for visiting us!!! Please come again!";
+function changeStyle(){
+    marquee.style.fontSize = "30px";
+    return marquee;
+}
+changeStyle();
+document.querySelector("body").appendChild(marquee);

@@ -3,11 +3,43 @@ body {
     background-image: url(images/image1.jpg);
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
 #grid-container {
     display: grid;
+    grid-template-columns: 20% 80%;
     margin: 5%;
     background-color: rgb(212, 181, 238);
     border-radius: 50px;
-    padding: auto;
+    padding: 10px;
     height: 350px;
+}
+
+.menu {
+    grid-column: 1/2;
+    background-color: rgb(204, 204, 133);
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.content {
+    grid-column: 2/3;
+    background-color: rgb(202, 202, 175);
+    border-radius: 50px;
+    padding: 10px;
 }

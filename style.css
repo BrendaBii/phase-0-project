@@ -3,6 +3,14 @@ body {
     background-image: url(images/image1.jpg);
 }
 
+p#header {
+    float: left;
+    text-align: center;
+    background-color: #dddddd;
+    font-size: 20px;
+    font-style: italic;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -12,15 +20,19 @@ ul {
 }
 
 li {
-    float: left;
     display: inline;
 }
 
 a {
+    float: right;
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 22px;
     background-color: #dddddd;
+    text-decoration: none;
+    height: 100%;
+    font-size: larger;
+    
 }
 a:hover {
     background-color: rgb(122, 85, 151);

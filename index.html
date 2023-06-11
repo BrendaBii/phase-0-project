@@ -7,10 +7,10 @@
 <body>
     <nav id="nav-bar">
         <ul>
-            <li><a href="">Logo</a></li>
-            <li><a href="">Hobbies</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">About</a></li>
+            <li><p id="header" float="left">Brenda Chebet Bii / Software Developer</p></li>
+            <li><a href="#location" id="a1">Location</a></li>
+            <li><a href="#motto" id="a2">Motto</a></li>
+            <li><a href="#company" id="a3">Company</a></li>
         </ul>
     </nav>
     <br>
@@ -18,11 +18,15 @@
         <div class="menu">
             <img src="images/image2.jpg" alt="Profile Picture"/>
             <br>
-            <button type="button">About Me</button>
-            <button>Work Experience</button>
-            <button>Contact Me</button>
+            <button type="button" id="button1" onclick="displayAboutMe()">About Me</button>
+            <button type="button" id="button2" onclick="displayExperience()">Work Experience</button>
+            <button type="button" id="button3" onclick="displayContacts()">Contact Me</button>
         </div>
-        <div class="content">Software Developer</div>
+        <div class="content">
+            <article id="details">
+                <p id="para">Know all about me!</p>
+            </article>
+        </div>
     </div>
     <div>
         <blockquote><script src="./script.js"></script></blockquote>

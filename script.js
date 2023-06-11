@@ -1,3 +1,24 @@
+//Onclick events for buttons 1, 2 and 3
+document.getElementById("button2").addEventListener("click", displayExperience());
+document.getElementById("button3").addEventListener("click", displayContacts());
+document.getElementById("button1").addEventListener("click", displayAboutMe());
+
+function displayAboutMe(){
+    document.getElementById("para").innerHTML = "<h1 class='heading'>About Me</h1>" + "<br>" + 
+    "<p class='details'>I am very passionate about programming and web development. I have years of experience in my field.</p>";
+};
+
+function displayExperience(){
+    document.getElementById("para").innerHTML = "<h1 class='heading'>Work Experience</h1>" + "<br>" + 
+    "<p class='details'>I have worked on many projects where I have created several static and dynamic websites for my clients.</p>";
+};
+
+function displayContacts(){
+    document.getElementById("para").innerHTML = "<h1 class='heading'>Contact Me</h1>" + "<br>" + 
+    "<p class='details'>E-mail : bii.brenda.bcb@gmail.com</p>";
+};
+
+//Marquee element created and appended
 const marquee = document.createElement("marquee");
 marquee.textContent = "Thank you for visiting us!!! Please come again!";
 function changeStyle(){
@@ -6,30 +27,3 @@ function changeStyle(){
 }
 changeStyle();
 document.querySelector("body").appendChild(marquee);
-
-document.getElementById("button1").addEventListener("click", displayAboutMe());
-document.getElementById("button2").addEventListener("click", displayExperience());
-document.getElementById("button3").addEventListener("click", displayContacts());
-
-function displayAboutMe(){
-    document.getElementById("para").innerHTML = "Brenda Chebet Bii";
-   /* let p = document.createElement("p");
-    let text;
-    text.textContent = "Brenda Chebet Bii";
-    p.appendChild(text);
-    document.getElementById("details").appendChild("p");
-    return details;*/
-
-};
-
-function displayExperience(){
-    document.getElementById("para").innerHTML = "I work hard.";
-    /*let text;
-    text.textContent = "Brenda Chebet Bii";
-    document.getElementById("para") = text;
-    return para;*/
-};
-
-function displayContacts(){
-    document.getElementById("para").innerHTML = "bii.brenda.bcb@gmail.com";
-};

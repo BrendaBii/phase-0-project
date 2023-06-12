@@ -37,9 +37,7 @@ a {
 a:hover {
     background-color: rgb(122, 85, 151);
     color: black;
-}
-
-#grid-container {
+}#grid-container {
     display: grid;
     grid-template-columns: 30% 70%;
     margin: 5%;

@@ -5,7 +5,7 @@ document.getElementById("button1").addEventListener("click", displayAboutMe());
 
 function displayAboutMe(){
     document.getElementById("para").innerHTML = "<h1 class='heading'>About Me</h1>" + "<br>" + 
-    "<p class='details'>I am very passionate about programming and web development. I have years of experience in my field.</p>";
+    "<p class='details'>I am very passionate about programming. I have years of experience in android development and web applications development. I am the best choice for all your programming needs.</p>";
 };
 
 function displayExperience(){
@@ -15,7 +15,8 @@ function displayExperience(){
 
 function displayContacts(){
     document.getElementById("para").innerHTML = "<h1 class='heading'>Contact Me</h1>" + "<br>" + 
-    "<p class='details'>E-mail : bii.brenda.bcb@gmail.com</p>";
+    "<p class='details'>E-mail : bii.brenda.bcb@gmail.com</p>" + "<br>" + "<p>Phone : 0715-947-727</p>" + "<br>" +
+    "<p>Instagram : @bii.brenda</p>";
 };
 
 //Marquee element created and appended
